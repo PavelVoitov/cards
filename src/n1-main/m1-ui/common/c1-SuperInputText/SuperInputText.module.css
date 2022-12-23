@@ -1,0 +1,49 @@
+.input:focus {
+
+}
+
+.input:hover {
+    border: 2px solid #888686;
+}
+
+
+.input {
+
+}
+
+.inputWrapper {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.superInput {
+    border-radius: 5px;
+    height: 36px;
+    border: 2px solid #aba9a9;
+    background: none;
+    width: 300px;
+    margin: 10px;
+}
+
+.errorInput {
+    border-radius: 5px;
+    height: 36px;
+    background: pink;
+    width: 300px;
+    margin: 2px 5px;
+    border: 1px solid red;
+}
+
+.errorInput:focus {
+    cursor: pointer;
+    border: 1px solid #cc9c00;
+}
+
+.error {
+    margin-left: 10px;
+    display: block;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #f80909;
+}

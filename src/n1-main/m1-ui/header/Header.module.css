@@ -1,0 +1,24 @@
+.burgerMenuIcon {
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin: 10px;
+    background-color: #282c34;
+}
+
+.header a {
+    text-decoration: none;
+    margin: 10px;
+    color: whitesmoke;
+}
+
+.header a:hover {
+    color: pink;
+    font-weight: bolder;
+}
+
