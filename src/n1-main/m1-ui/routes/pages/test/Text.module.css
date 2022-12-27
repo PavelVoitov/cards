@@ -1,4 +1,5 @@
 .test {
+    margin-bottom: 50px;
 
 }
 
@@ -8,5 +9,5 @@
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-
+    margin-bottom: 50px;
 }
