@@ -22,7 +22,7 @@ export const Pages = () => {
     return (
         <div>
             <Routes>
-                <Route path={'/'} element={<Login />}/>
+                <Route path={'/cards'} element={<Login />}/>
                 <Route path={PATH.LOGIN} element={<Login />}/>
                 <Route path={PATH.REGISTRATION} element={<Registration />}/>
                 <Route path={PATH.PROFILE} element={<Profile />}/>
