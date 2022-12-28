@@ -3,14 +3,15 @@ import './App.css';
 import {Pages} from "./routes/Pages";
 import {BrowserRouter} from "react-router-dom";
 import {Header} from "./header/Header";
+import { HashRouter } from "react-router-dom";
 
 const App = () => {
     return (
         <div className="App">
-            <BrowserRouter>
+            <HashRouter>
                 <Header/>
                 <Pages/>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     );
 }
