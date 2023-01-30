@@ -5,13 +5,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 80px;
     margin: 10px;
     background-color: #282c34;
 }
 
 .header a {
+    width: 200px;
     text-decoration: none;
     margin: 10px;
     color: whitesmoke;
@@ -19,6 +20,6 @@
 
 .header a:hover {
     color: pink;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
