@@ -1,13 +1,13 @@
-import {applyMiddleware, combineReducers, compose, legacy_createStore} from "redux";
+import {applyMiddleware, combineReducers, legacy_createStore} from "redux";
 import thunk from 'redux-thunk'
 import {appReducer} from "./app-reducer";
 import {authReducer} from "./auth-reducer";
 
-declare global {
-    interface Window {
-        __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose;
-    }
-}
+// declare global {
+//     interface Window {
+//         __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose;
+//     }
+// }
 
 
 const rootReducer = combineReducers({
